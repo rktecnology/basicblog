@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 16px;
+	font-family: sans-serif;
+}
+body{
+	background-color: #fff;
+	display: table;
+}
+.main__header{
+	background-color: rgb(245, 71, 71);
+	width: 89%;
+	margin: 0 auto;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.main__header--title{
+	color: #fff;
+	font-size: 3em;
+	text-align: center;
+}
+.box{
+	display: table;
+	width: 89%;
+	margin: 20px auto;
+}
+	.box--left{
+		display: table-cell;
+		width: 70%;
+		background-color: rgb(236, 236, 236);
+		border-right: 16px solid white;
+	}
+	@media (max-width: 800px){
+		.box--left{
+			display: table-header-group;
+			border-right: none;
+		}
+	}
+		.box__title{
+			font-size: 2.5em;
+			text-transform: uppercase;
+			text-align: center;
+			padding-top: .5em;
+		    color: rgb(255, 73, 73);
+		}
+		.box__autor{
+			font-size: 1.3em;
+			margin-left: .8em;
+			color: gray;
+		}
+		.main--autor{
+			color: black;
+		}
+		.box__content{
+			padding: 15px;
+			font-size: 1.3em;
+			text-align: justify;
+			color:rgb(39, 39, 39)
+		}
+		.content--post{
+			margin-bottom: 1em;
+			border-bottom: 16px solid white;
+		}
+	.box--right{
+		display: table-cell;
+		width: 30%;
+		background-color: rgb(236, 236, 236);
+		text-align: center;
+  		padding-top: 1em;
+  		padding-bottom: 1em;
+	}
+	@media(max-width: 800px){
+		.box--right{
+		border-top: 21px solid white;
+
+		}
+	}
+		.box--right__title--first{
+			font-size: 1.7em;
+
+		}
+		.box--right__link{
+			text-decoration: none;
+			font-size: 1.6em;
+		}
+		.box--right__link--button{
+			padding: .5em;
+			display: block;
+			margin: .6em;
+		}
+		.box--right__link--button--blue{
+			background-color: rgb(245, 71, 71);
+			color: white;
+		}
+		.box--right__link--button--blue:hover{
+			background-color: rgb(245, 71, 20);
+		}
+		.box-right__list{
+			padding-top: .5em; 
+		}
+		.box-right__content{
+			list-style: none;
+		}
+		.box--right__link-list{
+			font-size: 1.3em;
+			color: rgb(255, 73, 73);
+		}
+		.box--right__link-list:hover{
+			text-decoration: underline;
+		}
+		input[type="email"]{
+			display: table-cell;
+			margin: 0 auto;
+			width: 90%;
+			padding-top: .9em;
+			padding-bottom: .9em;
+		}
+.main__footer{
+	  background-color: rgb(255, 45, 45);
+	  width: 89%;
+	  height: 120px;
+	  margin: 0 auto;
+}
+.main__footer--f{
+	text-align: center;
+	color: white;
+	line-height: 120px;
+	font-size: 1.2em;
+}
